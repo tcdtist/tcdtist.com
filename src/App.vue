@@ -13,28 +13,28 @@ import { RESUME } from './constants';
     <div class="mx-auto flex min-h-screen max-w-[1280px] flex-col justify-center py-16 px-6">
       <div class="mb-14 flex flex-wrap items-center justify-center gap-10 sm:mb-20 sm:gap-20">
         <img src="/images/avatar.jpeg" alt="Chi Thanh Dang" class="size-32 rounded-xl sm:size-40" />
-        <div class="group">
+        <div class="group text-center xl:text-left">
           <div class="mb-2 text-xl transition-all group-hover:-translate-x-1 sm:text-2xl">
             <span class="me-2 font-light animate-bounce">Hi,</span>
             <span class="font-bold">I'm</span>
           </div>
           <h2 class="text-[2.75rem] font-black transition-all group-hover:translate-x-1 sm:text-7xl">
-            {{ RESUME.fullname }} <span class="text-3xl">(tist)</span>
+            {{ RESUME.fullname }}
+            <span class="text-3xl">(tist)</span>
           </h2>
         </div>
       </div>
 
-      <div class="mb-32 sm:text-center">
-        <h2 class="mb-6 text-3xl font-bold sm:mb-8 sm:text-2xl">
+      <div class="mb-32 text-center">
+        <h2 class="mb-14 text-3xl font-bold sm:mb-8 sm:text-2xl">
           Full Stack Engineer focused on building products with
-          <span class="text-blue-300 underline underline-offset-8">
+          <span class="text-blue-300 underline underline-offset-8 block sm:inline-block">
             "extra attention to detail"
           </span>
         </h2>
 
-        <div class="mb-6 text-base font-light leading-loose text-gray-300 lg:text-lg">
-          <div class="font-bold flex flex-wrap gap-1">
-            Technologies:
+        <div class="mb-14 text-base font-light leading-loose text-gray-300 lg:text-lg">
+          <div class="font-bold flex items-center justify-center flex-wrap gap-1">
             <span v-for="(tech, index) in RESUME.technologies" :key="index" class="technology">
               {{ tech }}
             </span>
