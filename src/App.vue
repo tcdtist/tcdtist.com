@@ -12,7 +12,7 @@ import { RESUME } from './constants';
     class="min-h-dvh bg-slate-900 bg-[radial-gradient(ellipse_80%_60%_at_50%_-15%,rgba(119,198,196,0.3),rgba(255,255,255,0))] text-gray-50">
     <div class="mx-auto flex min-h-screen max-w-[1280px] flex-col justify-center py-16 px-6">
       <div class="mb-14 flex flex-wrap items-center justify-center gap-10 sm:mb-20 sm:gap-20">
-        <img src="/images/avatar.jpeg" alt="Chi Thanh Dang" class="size-32 rounded-xl sm:size-40" />
+        <img src="/images/avatar.jpeg" alt="Chi Thanh Dang" class="size-32 rounded-xl sm:size-40" lazy />
         <div class="group text-center xl:text-left">
           <div class="mb-2 text-xl transition-all group-hover:-translate-x-1 sm:text-2xl">
             <span class="me-2 font-light animate-bounce">Hi,</span>
