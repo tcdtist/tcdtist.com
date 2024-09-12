@@ -29,11 +29,11 @@ const socials: SocialLink[] = [
     title: 'Facebook',
     icon: FacebookIcon,
   },
-  {
-    href: SOCIAL_LINK.INSTAGRAM,
-    title: 'Instagram',
-    icon: InstagramIcon,
-  },
+  // {
+  //   href: SOCIAL_LINK.INSTAGRAM,
+  //   title: 'Instagram',
+  //   icon: InstagramIcon,
+  // },
 ]
 </script>
 
