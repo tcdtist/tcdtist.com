@@ -2,7 +2,6 @@
 import SocialItem, { SocialLink } from './SocialItem.vue'
 import FacebookIcon from './icons/FacebookIcon.vue'
 import GitHubIcon from './icons/GitHubIcon.vue'
-import InstagramIcon from './icons/InstagramIcon.vue'
 import LinkedInIcon from './icons/LinkedInIcon.vue'
 import XIcon from './icons/XIcon.vue'
 
