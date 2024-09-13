@@ -1,9 +1,10 @@
 export const SOCIAL_LINK = {
   GITHUB: 'https://github.com/tcdtist',
   X: 'https://twitter.com/tcdtist',
-  LINKEDIN: 'https://www.linkedin.com/in/chithanh-tist/',
-  FACEBOOK: 'https://www.facebook.com/chithanh.tist',
+  LINKEDIN: 'https://www.linkedin.com/in/tcdtist/',
+  FACEBOOK: 'https://www.facebook.com/tcdtist',
   INSTAGRAM: 'https://instagram.com/tcdtist_',
+  CV: 'https://cv.tcdtist.com/',
 }
 
 export const TECHNOLOGIES = [

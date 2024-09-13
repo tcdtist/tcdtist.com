@@ -4,6 +4,7 @@ import FacebookIcon from './icons/FacebookIcon.vue'
 import GitHubIcon from './icons/GitHubIcon.vue'
 import LinkedInIcon from './icons/LinkedInIcon.vue'
 import XIcon from './icons/XIcon.vue'
+import CVIcon from './icons/CVIcon.vue'
 
 import { SOCIAL_LINK } from '../constants'
 
@@ -33,6 +34,11 @@ const socials: SocialLink[] = [
   //   title: 'Instagram',
   //   icon: InstagramIcon,
   // },
+  {
+    href: SOCIAL_LINK.CV,
+    title: 'My CV',
+    icon: CVIcon,
+  },
 ]
 </script>
 
